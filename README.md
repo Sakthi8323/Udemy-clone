@@ -20,7 +20,7 @@ This project is a fully responsive Udemy clone built using HTML and CSS. It repl
 To view the project locally:
 
 1. Clone the repository:
-   [LINK]
+   [https://sakthi8323.github.io/Udemy-clone/]
 
 2. Open the `index.html` file in your preferred web browser.
 
