@@ -83,21 +83,24 @@ body{
     color: black;
     border: solid #A435F0 2px;
 }
+.sale-image{
+    position: relative;
+}
 .sale-image img{
     width: 100%;
 }
 .sale-image__offer{
-    width: 35%;
+    width: 30%;
     border: solid black 2px;
     background-color: white;
     padding: 2%;
     position: absolute;
-    top: 25%;
-    left: 5%;
+    top: 10%;
+    left: 8%;
     animation-name: zoom;
-    opacity: 0;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    opacity: 0;
 }
 @keyframes zoom {
     0%{
@@ -114,6 +117,7 @@ body{
 }
 .recommended__container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px;
 }
@@ -175,7 +179,7 @@ body{
 }
 @media  screen and (max-width: 600px) {
     .course-card{
-        flex-basis: 30%;
+        flex-basis: 40%;
     }
     .categories{
         display: none;
